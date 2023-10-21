@@ -1,0 +1,46 @@
+.header {
+    background-color: white;
+
+    .header_content {
+        margin-top: 107px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header_texts{
+        width: 421px;
+    }
+
+    .header_text1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.08em;
+        color: #245462;
+    }
+
+    .header_text2 {
+        margin-top: 16px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #414141;
+    }
+
+    .header_text3 {
+        margin-top: 15px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #686868;
+    }
+    .header_img{
+        margin-left: 48px;
+    }
+}

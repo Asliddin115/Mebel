@@ -1,0 +1,34 @@
+body {
+    background-color: white;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  ul,
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  
+  @import "__navbar";
+  @import "__header";
+  @import "__blog1.scss";
+  @import "__blog2.scss";
+  @import "__blog3.scss";
+  @import "__blog4.scss";
